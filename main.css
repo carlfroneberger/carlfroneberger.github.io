@@ -1,3 +1,45 @@
+/* Sources:
+ * https://medium.freecodecamp.org/how-to-center-things-with-style-in-css-dc87b7542689
+ */
+
 html {
     background-color: #061733;
+}
+
+div#content {
+    width: 720px;
+    margin: 0 auto;
+}
+
+div#header {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5em;
+
+}
+
+div#nav_bar {
+    width: 100%;
+    height: 50px;
+}
+
+div#nav_item {
+    width: 33.3%;
+    height: 100%;
+}
+
+
+div#nav_item a {
+    text-align: center;
+    text-decoration:  none;
+}
+
+
+div#title {
+    width: 100%;
+    text-align: center;
 }
