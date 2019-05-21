@@ -1,5 +1,7 @@
 /* Sources:
  * https://medium.freecodecamp.org/how-to-center-things-with-style-in-css-dc87b7542689
+    https://www.quora.com/I-want-to-put-two-divs-in-HTML-in-the-same-line-but-one-always-comes-under-the-other-one-What-should-I-do
+    https://stackoverflow.com/questions/4151743/how-i-change-the-thickness-of-my-hr-tag
  */
 
 html {
@@ -24,22 +26,41 @@ div#header {
 
 div#nav_bar {
     width: 100%;
-    height: 50px;
+    padding: 10px;
+    height: auto;
+    display:inline-block;
 }
 
-div#nav_item {
-    width: 33.3%;
+div.nav_item {
+    width: 33.333%;
     height: 100%;
+    text-align: center;
+    float: left;
+    line-height: 1.2em;
 }
 
 
-div#nav_item a {
+div.nav_item a {
     text-align: center;
     text-decoration:  none;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2em;
+    line-height: 1.2em;
 }
 
 
 div#title {
     width: 100%;
     text-align: center;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #fff;
+    padding: 0;
+    width: 120%;
+    margin-left: -10%;
+
 }
