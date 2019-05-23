@@ -53,6 +53,10 @@ div.nav_item a {
 div#title {
     width: 100%;
     text-align: center;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2em;
+    margin-top: 20px;
 }
 
 hr {
@@ -62,5 +66,12 @@ hr {
     padding: 0;
     width: 120%;
     margin-left: -10%;
+}
 
+img {
+    max-width: 50%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
